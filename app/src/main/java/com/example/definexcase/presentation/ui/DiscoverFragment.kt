@@ -55,7 +55,7 @@ class DiscoverFragment : Fragment() {
         binding.topRecyclerView.layoutManager = layoutManager
         binding.topRecyclerView.adapter = topAdapter
 
-        val layoutManager2 = GridLayoutManager(activity, 4, RecyclerView.VERTICAL, false)
+        val layoutManager2 = GridLayoutManager(activity, 1, RecyclerView.HORIZONTAL, false)
         binding.middleRecyclerView.layoutManager = layoutManager2
         binding.middleRecyclerView.adapter = middleAdapter
 
