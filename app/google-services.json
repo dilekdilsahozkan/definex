@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "309223094661",
+    "project_id": "definex-case-study-b4555",
+    "storage_bucket": "definex-case-study-b4555.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309223094661:android:7819b79dc837e38aca6cec",
+        "android_client_info": {
+          "package_name": "com.example.definexcase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309223094661-13mnfilt74de2cl1q8e385fpu25n7jtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOfU1JNM12OoLJHgupvz3tFpzMWJXacX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309223094661-13mnfilt74de2cl1q8e385fpu25n7jtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
