@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.example.definexcase.presentation.ui.LoginFragment"
+        android:label="Login Fragment"
+        tools:layout="@layout/fragment_login"/>
+
+    <fragment
+        android:id="@+id/DiscoverFragment"
+        android:name="com.example.definexcase.presentation.ui.DiscoverFragment"
+        android:label="Discover Fragment"
+        tools:layout="@layout/fragment_discover"/>
+)
+</navigation>

@@ -1,0 +1,16 @@
+Projeyi oluşturduktan sonra ilk olarak uygulamanın gerekliliklerini çıkartıp, architecture'a uygun olarak paket düzenlemelerini yaptım.
+Caseden beklenildiği gibi Kotlin dili kullanıp istenilen tasarımları yaptım.
+Daha sonra servisi bağlamak adına BASE URL olarak verilen https://teamdefinex-mobile-auth-casestudy.vercel.app adresini tanımladım ve
+retrofit ve dagger yardımıyla Url'i projeye bağladım. Daha sonra REST kullanarak endpointleri kullandım.
+API isteklerini oluşturdum ve postman yardımıyla modellerimi oluşturdum.
+İlk başta Login sayfasında verilen request ile giriş yaptım ve observe ederek token verisine eriştim.
+Loginden aldığım token'ı bundle yardımıyla discover fragmente taşıdım ve tasarımdan istenilen şekilde Ana sayfada verileri listeledim.
+Projeyi firebase'e bağlayıp entegrasyonunu sağladım. Crashlytics ekleyerek crash aldığım zaman sorunu inceleyebildim.
+Oluşturduğum projenin genel detayları bu şekildedir.
+
+
+**İnternetsiz veri tutmak adına Cache kullandım ama maalesef çalışmamakta.
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Dilek Dilşah Özkan

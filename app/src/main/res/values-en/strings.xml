@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="defineX">DefineX \nCase Study</string>
+    <string name="forgotPassword">Forgot my password</string>
+    <string name="email">E-mail address</string>
+    <string name="password">Password</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="soon">See you soon</string>
+</resources>

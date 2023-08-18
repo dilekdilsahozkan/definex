@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ImageView" />
+
+    <style name="ImageView.Round">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Round</item>
+    </style>
+
+    <style name="ImageView.Round.8">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Round.8</item>
+    </style>
+
+    <style name="XShapeAppearanceOverlay" parent="ShapeAppearanceOverlay" />
+
+    <style name="ShapeAppearanceOverlay.Round">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Round.8">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.PetCard">
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/discover_graph"
+    app:startDestination="@id/discoverFragment">
+
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.example.definexcase.presentation.ui.DiscoverFragment"
+        android:label="DiscoverFragment"
+        tools:layout="@layout/fragment_discover">
+
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/bookFragment" />
+
+        <action
+            android:id="@+id/action_firstFragment_to_thirdFragment"
+            app:destination="@id/cartFragment" />
+
+        <action
+            android:id="@+id/action_firstFragment_to_forthFragment"
+            app:destination="@id/tagFragment" />
+
+        <action
+            android:id="@+id/action_firstFragment_to_fifthFragment"
+            app:destination="@id/settingsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookFragment"
+        android:name="com.example.definexcase.presentation.ui.BookFragment"
+        android:label="DiscoverFragment"
+        tools:layout="@layout/fragment_discover"/>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.definexcase.presentation.ui.CartFragment"
+        android:label="DiscoverFragment"
+        tools:layout="@layout/fragment_discover"/>
+
+    <fragment
+        android:id="@+id/tagFragment"
+        android:name="com.example.definexcase.presentation.ui.TagFragment"
+        android:label="DiscoverFragment"
+        tools:layout="@layout/fragment_discover"/>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.definexcase.presentation.ui.SettingsFragment"
+        android:label="DiscoverFragment"
+        tools:layout="@layout/fragment_discover"/>
+
+</navigation>

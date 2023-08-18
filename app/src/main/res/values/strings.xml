@@ -1,0 +1,11 @@
+<resources>
+    <string name="defineX">DefineX \nCase Study</string>
+    <string name="forgotPassword">Şifremi Unuttum</string>
+    <string name="email">E-posta adresiniz</string>
+    <string name="password">Şifreniz</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="login">Giriş Yap</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="soon">Çok yakında</string>
+</resources>

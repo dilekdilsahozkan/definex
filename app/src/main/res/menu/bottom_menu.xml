@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/discoverFragment"
+        android:icon="@drawable/ic_shopping"
+        app:showAsAction="always"
+        android:title="Discover" />
+
+    <item
+        android:id="@+id/bookFragment"
+        android:icon="@drawable/ic_book_open"
+        app:showAsAction="always"
+        android:title=""/>
+
+    <item
+        android:id="@+id/cartFragment"
+        android:icon="@drawable/ic_cart"
+        app:showAsAction="always"
+        android:title=""/>
+
+    <item
+        android:id="@+id/tagFragment"
+        android:icon="@drawable/ic_tag_heart"
+        app:showAsAction="always"
+        android:title=""/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="always"
+        android:title=""/>
+
+</menu>
